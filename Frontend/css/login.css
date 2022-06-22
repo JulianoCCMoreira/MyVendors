@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 20rem;
+    height: 70vh;
+    padding-top: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px 9px rgba(0, 0, 0, 0.25);
+}
+
+.login-container h3 {
+    margin: 20px 10px 0px 0px;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-bottom: 35px;
+}
+
+.login-form p {
+    align-self: flex-start;
+    font-size: 13.5px;
+    margin-bottom: 5px;
+}
+
+.login-input {
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    border-radius: 3px;
+    border: 1px solid #cbcbcc;
+}
+
+.login-input:focus{
+    outline: 1px solid #1676F3;     /* oranges! yey */
+}
+
+.login-button {
+    background-color: #1676F3;
+    color: #fff;
+    font-weight: bold;
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
